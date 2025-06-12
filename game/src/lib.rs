@@ -4,7 +4,6 @@ mod interface;
 use std::{error::Error, time::Duration};
 use sdl2::{
     event::Event,
-    keyboard::Keycode,
     mouse::MouseButton,
     pixels::Color,
 };

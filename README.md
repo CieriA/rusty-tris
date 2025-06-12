@@ -46,7 +46,10 @@ cargo run --release
 - Left mouse click — place the piece
 
 ## Development notes
-This project didn't need to be a `workspace` because of its simplicity.
+This project didn't need to be a `workspace` because of its simplicity
+but at this point it takes less time to leave it as it is.
+
+This project was made to learn more about the SDL2 library.
 
 This project uses the following crates:
 - sdl2
