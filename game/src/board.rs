@@ -32,6 +32,7 @@ impl Board {
     pub(crate) fn iter(&self) -> impl Iterator<Item = &Row> {
         self.0.iter()
     }
+    #[inline]
     pub(crate) fn is_full(&self) -> bool {
         self.iter().all(|row| row.iter().all(Option::is_some))
     }
