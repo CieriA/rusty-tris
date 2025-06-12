@@ -48,7 +48,6 @@ pub fn run() -> Result<(), Box<dyn Error>> {
                 } => {
                     let x = x as usize / interface::CELL_SIZE as usize;
                     let y = y as usize / interface::CELL_SIZE as usize;
-                    println!("x, y: {}, {}", x, y);
                     let i = y * 3 + x;
                     match board[i] {
                         Some(_) => {
@@ -80,7 +79,6 @@ pub fn run() -> Result<(), Box<dyn Error>> {
 
         canvas.present();
         
-        println!("turn : {}", turn);
         std::thread::sleep(Duration::from_millis(16));
     }
 
