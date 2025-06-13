@@ -21,7 +21,7 @@ Make sure the .ddl files are in your `PATH` or project folder at runtime.
 
 #### macOS (using Homebrew)
 ```bash
-brew install sdl2 sdl2_ttd
+brew install sdl2 sdl2_ttf
 ```
 
 #### Linux
